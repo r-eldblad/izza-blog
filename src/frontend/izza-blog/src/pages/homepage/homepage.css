@@ -1,0 +1,13 @@
+
+.mainArea main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 70em;
+    max-width: 100%;
+    margin: 0 auto;
+}
