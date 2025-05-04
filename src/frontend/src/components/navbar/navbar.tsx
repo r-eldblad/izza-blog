@@ -10,11 +10,7 @@ const Navbar = () => {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar
-        position="static"
-        elevation={0}
-        sx={{ mb: 5, bgcolor: purple[300] }}
-      >
+      <AppBar position="static" elevation={0} sx={{ bgcolor: purple[300] }}>
         <Toolbar>
           <IconButton
             size="large"

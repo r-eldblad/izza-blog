@@ -1,0 +1,11 @@
+services:
+  frontend:
+    build:
+      context: src/frontend/
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./src/frontend:/app
+      - /app/node_modules
+    command: npm run dev
